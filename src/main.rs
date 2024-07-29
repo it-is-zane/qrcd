@@ -10,7 +10,6 @@ use clap::{CommandFactory, Parser};
 #[derive(clap::Parser)]
 struct Args {
     /// Url or other data
-    #[arg(short, long)]
     data: Option<String>,
 
     /// File to write qrcd to
